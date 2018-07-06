@@ -5,7 +5,7 @@ raytrace_range: 3.0  #was 0.0 -> 8.0 -> 3.0
 
 transform_tolerance: 0.2   #was 0
 
-foottprint: [[-0.22, -0.20], [-0.22, 0.20], [0.22, 0.20], [0.22, -0.20]]  #bex  #robot is more certain with this set
+footprint: [[-0.22, -0.20], [-0.22, 0.20], [0.22, 0.20], [0.22, -0.20]]  #bex  #robot is more certain with this set
 
 inflation_radius: 0.4  #0.5 fixed Map missed error  #99.0 or other values cause Map update warning
                        #0.5 failed to navigate and stuck sometimes, try 0.3
